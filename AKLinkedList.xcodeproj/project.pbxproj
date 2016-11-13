@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9229BC051DD2749D00338508 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9229BC041DD2749D00338508 /* main.cpp */; };
+		9229BC0D1DD274AF00338508 /* AKLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9229BC0B1DD274AF00338508 /* AKLinkedList.cpp */; };
+		9229BC101DD274E100338508 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9229BC0E1DD274E100338508 /* Node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		9229BC011DD2749D00338508 /* AKLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AKLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		9229BC041DD2749D00338508 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9229BC0B1DD274AF00338508 /* AKLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKLinkedList.cpp; sourceTree = SOURCE_ROOT; };
+		9229BC0C1DD274AF00338508 /* AKLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AKLinkedList.hpp; sourceTree = SOURCE_ROOT; };
+		9229BC0E1DD274E100338508 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		9229BC0F1DD274E100338508 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		9229BC031DD2749D00338508 /* AKLinkedList */ = {
 			isa = PBXGroup;
 			children = (
+				9229BC0B1DD274AF00338508 /* AKLinkedList.cpp */,
+				9229BC0C1DD274AF00338508 /* AKLinkedList.hpp */,
 				9229BC041DD2749D00338508 /* main.cpp */,
+				9229BC0E1DD274E100338508 /* Node.cpp */,
+				9229BC0F1DD274E100338508 /* Node.hpp */,
 			);
 			path = AKLinkedList;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9229BC101DD274E100338508 /* Node.cpp in Sources */,
+				9229BC0D1DD274AF00338508 /* AKLinkedList.cpp in Sources */,
 				9229BC051DD2749D00338508 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
